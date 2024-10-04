@@ -5,7 +5,7 @@ This repository contains the code and resources for a *Recipe Recommendation Sys
 
 ## 🌐 Website Preview
 
-![Website Screenshot](static/images/website_screenshot.png)
+static/images/website_screenshot.png
 
 
 ## 📁 Project Structure
