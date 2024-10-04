@@ -57,7 +57,7 @@ Ensure you have Python 3.x installed on your system. You will also need to insta
 
 1. Clone the repository:
     bash
-    git clone https://github.com/Vaishnaviii03/recipe-recommendation-api.git
+    git clone https://github.com/anshul-3000/recipe_recommendation/tree/main
     
 
 2. Navigate to the project directory:
