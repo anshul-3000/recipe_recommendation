@@ -1,39 +1,37 @@
-# Yum Craft 
+# Yum Craft
 ## 🍽️ Recipe Recommendation System
 
 This repository contains the code and resources for a *Recipe Recommendation System*. The system uses a trained machine learning model to suggest recipes based on user input. The project includes data scraping, preprocessing, model training, and a Flask API to serve recipe recommendations.
 
+## 🌐 Website Preview
+
+![Website Screenshot](static/images/website_screenshot.png)
+
+
 ## 📁 Project Structure
 
-recipe-recommendation-api/
-│
-├── api/
-│   ├── app.py                   # 🖥️ Main Flask application
-│   ├── route.py                 # 🔄 API route definitions
-│   ├── requirements.txt         # 📦 Python dependencies
-│
-├── data/
-│   ├── raw/
-│   │   ├── recipes_raw.csv       # 📊 Raw recipe data
-│   │   └── recipes_raw(without hindi).csv  # 📊 Raw data (excluding Hindi text)
-│   └── processed/
-│       └── recipes_processed.csv # 🧹 Preprocessed recipe data
-│
-├── models/
-│   ├── train_model.ipynb         # 📓 Model training notebook
-│   └── recipe_recommendation_model.pkl  # 🤖 Trained recommendation model
-│
-├── scraping/
-│   └── scrape_recipes.ipynb      # 🍴 Web scraping notebook for collecting recipes
-│
-├── static/
-│   └── images/
-│       └── [background image]    # 🖼️ Background image for the website
-│
-├── templates/
-│   └── index.html                # 🌐 Main HTML file for the web interface
-│
-└── README.md                     # 📖 Project overview and instructions
+- *recipe-recommendation-api/*
+  - *api/*
+    - app.py                   # 🖥️ Main Flask application
+    - route.py                 # 🔄 API route definitions
+    - requirements.txt         # 📦 Python dependencies
+  - *data/*
+    - *raw/*
+      - recipes_raw.csv       # 📊 Raw recipe data
+      - recipes_raw(without hindi).csv  # 📊 Raw data (excluding Hindi text)
+    - *processed/*
+      - recipes_processed.csv  # 🧹 Preprocessed recipe data
+  - *models/*
+    - train_model.ipynb       # 📓 Model training notebook
+    - recipe_recommendation_model.pkl  # 🤖 Trained recommendation model
+  - *scraping/*
+    - scrape_recipes.ipynb    # 🍴 Web scraping notebook for collecting recipes
+  - *static/*
+    - *images/*
+      - [background image]     # 🖼️ Background image for the website
+  - *templates/*
+    - index.html               # 🌐 Main HTML file for the web interface
+  - README.md                  # 📖 Project overview and instructions
 
 
 
@@ -57,7 +55,7 @@ Ensure you have Python 3.x installed on your system. You will also need to insta
 
 1. Clone the repository:
     bash
-    git clone https://github.com/anshul-3000/recipe_recommendation/tree/main
+    git clone https://github.com/anshul-3000/recipe_recommendation
     
 
 2. Navigate to the project directory:
@@ -89,4 +87,12 @@ To train or retrain the recommendation model:
 
 ### 🍴 Scraping Recipes
 
-To scrape new recipes, run the notebook scraping/scrape_recipes.ipynb. This will gather recipe data from the
+To scrape new recipes, run the notebook scraping/scrape_recipes.ipynb. This will gather recipe data from the specified sources and save it to the data/raw folder.
+
+## 🤝 Contributing
+
+Feel free to submit issues or pull requests if you have suggestions for improving the system or adding new features.
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
