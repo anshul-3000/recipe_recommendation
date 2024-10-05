@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import re
 import ast
 
-app = Flask(__name__, static_folder='D:\\Recipe Recommendation\\static', template_folder='D:\\Recipe Recommendation\\templates')
+app = Flask(__name__, static_folder='recipe_recommendation\\static', template_folder='recipe_recommendation\\templates')
 
 # Load vocabulary and DataFrame
 with open('models\\recipe_recommendation_model.pkl', 'rb') as f:
