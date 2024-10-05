@@ -6,10 +6,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 import re
 import ast
 
-app = Flask(__name__, static_folder='D:\\Recipe Recommendation - api-main\\static', template_folder='D:\\Recipe Recommendation - api-main\\templates')
+app = Flask(__name__, static_folder='D:\\recipe_recommendation\\static', template_folder='D:\\recipe_recommendation\\templates')
 
 # Load vocabulary and DataFrame
-with open('D:\\Recipe Recommendation - api-main\\models\\recipe_recommendation_model.pkl', 'rb') as f:
+with open('D:\\recipe_recommendation\\models\\recipe_recommendation_model.pkl', 'rb') as f:
     vocab = pickle.load(f)
 
 df = pd.read_csv('D:\\Recipe Recommendation - api-main\\data\\processed\\recipes_processed.csv')
