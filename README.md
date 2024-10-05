@@ -13,6 +13,7 @@ This repository contains the code and resources for a *Recipe Recommendation Sys
 - *recipe-recommendation-api/*
   - *api/*
     - app.py                   # 🖥️ Main Flask application
+    - main.py                  # 🖥️ GUI Flask application
     - route.py                 # 🔄 API route definitions
     - requirements.txt         # 📦 Python dependencies
   - *data/*
