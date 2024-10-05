@@ -10,8 +10,8 @@ import os
 app = Flask(__name__)
 
 # Load vocabulary and DataFrame
-MODEL_PATH = 'D:\\Recipe Recommendation - api-main\\models\\recipe_recommendation_model.pkl'
-DATA_PATH = 'D:\\Recipe Recommendation - api-main\\data\\processed\\recipes_processed.csv'
+MODEL_PATH = 'recipe_recommendation-main\\models\\recipe_recommendation_model.pkl'
+DATA_PATH = 'recipe_recommendation-main\\data\\processed\\recipes_processed.csv'
 
 # Check if the model and data paths exist
 if not os.path.exists(MODEL_PATH):
